@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusão Digital e Educacional - EJA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+	li {
+	   margin:15px;
+	}
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #333;
+        }
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .tab {
+            flex: 1;
+            margin: 5px;
+            padding: 10px;
+            background: #e8f5e9;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s;
+        }
+        .tab:hover {
+            background: #c8e6c9;
+        }
+        .tab-content {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inclusão Digital e Educacional para Alunos da EJA</h1>
+        <p>Promovendo autonomia e acesso ao conhecimento através da tecnologia</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>A Introdução </h2>
+            <p>Bem-vindo ao Inclusão Digital e Educacional para Alunos da EJA, uma iniciativa que conecta tecnologia e educação para transformar a vida de jovens e adultos em busca de aprendizado contínuo.</p>
+	    <p>Este site é um protótipo inicial, desenvolvido por um único aluno como parte de um projeto acadêmico. Ele foi criado para demonstrar a ideia central e as funcionalidades básicas de uma plataforma educacional voltada para alunos da Educação de Jovens e Adultos (EJA). O objetivo é fornecer uma visão preliminar para investidores, apresentando como o site poderia ser estruturado e funcionar em sua versão completa.</p>
+        </section>
+
+	<section class="section">
+            <h2>O Problema</h2>
+            <p>Muitas pessoas na Educação de Jovens e Adultos (EJA) enfrentam barreiras significativas para acessar e utilizar ferramentas digitais. Essa limitação restringe o aprendizado e a inserção no mercado de trabalho.</p>
+        </section>
+
+	<section class="section">
+            <h2>A Solução</h2>
+            <p>Desenvolvemos um site inclusivo e intuitivo, focado em oferecer recursos educacionais organizados por áreas temáticas, como:</p>
+	    <ul>
+                <li><b>Matemática Básica:</b> Operações fundamentais e resolução de problemas.</li>
+                <li><b>Conceitos de Redação:</b> Estruturação de textos e gramática.</li>
+                <li><b>Línguas Estrangeiras:</b> Ferramentas para aprender inglês e espanhol.</li>
+		<li><b>Pacote Office:</b> Tutoriais básicos de Word, Excel e PowerPoint.</li>
+            </ul>
+
+            <a href="#" class="btn">Saiba Mais</a>
+        </section>
+
+
+	<section class="section">
+            <h2>Os Diferenciais</h2>
+            <p>Nosso site foi projetado com acessibilidade em mente, incluindo:</p>
+            <ul>
+		<li><b>Abas Temáticas:</b>Escolha sua área de interesse e explore conteúdos organizados para facilitar seu aprendizado.Cada aba oferece acesso direto a vídeos, materiais didáticos e ferramentas úteis, tudo pensado para atender suas necessidades de forma prática e intuitiva.</li>
+                <li><b>Acessibilidade:</b> Recursos para aumento de fonte, contraste ajustável e compatibilidade com leitores de tela, pensando em usuários com pouca familiaridade tecnológica.</li>
+                <li><b>Histórias de Sucesso:</b> Depoimentos reais que inspiram e mostram como a plataforma faz a diferença.</li>
+                <li><b>Recursos Offline:</b> Materiais para download que possibilitam estudar mesmo sem acesso à internet.</li>
+            </ul>
+            <p>Tutoriais específicos ajudam o usuário a explorar essas funcionalidades e tornar a navegação ainda mais intuitiva.</p>
+        </section>
+
+
+        <section class="section">
+            <h2>Abas Temáticas</h2>
+            <div class="tabs">
+                <div class="tab" data-tab="math">Matemática Básica</div>
+                <div class="tab" data-tab="writing">Conceitos de Redação</div>
+                <div class="tab" data-tab="languages">Línguas Estrangeiras</div>
+                <div class="tab" data-tab="office">Pacote Office</div>
+            </div>
+
+            <div class="tab-content" id="math">
+                <h3>Matemática Básica</h3>
+                <p>Links para vídeos e materiais didáticos sobre operações fundamentais, porcentagem, e resolução de problemas.</p>
+            </div>
+
+            <div class="tab-content" id="writing">
+                <h3>Conceitos de Redação</h3>
+                <p>Dicas e aulas sobre estruturação de textos, gramática e expressão escrita.</p>
+            </div>
+
+            <div class="tab-content" id="languages">
+                <h3>Línguas Estrangeiras</h3>
+                <p>Direcionamento a sites, aplicativos e canais de YouTube para aprender inglês e espanhol de forma acessível.</p>
+            </div>
+
+            <div class="tab-content" id="office">
+                <h3>Pacote Office</h3>
+                <p>Tutoriais para uso básico de Word, Excel e PowerPoint.</p>
+            </div>
+        </section>
+
+        
+        <section class="section">
+            <h2>Depoimentos e Histórias de Sucesso</h2>
+            <p>Confira os relatos de nossos usuários que superaram desafios com o apoio da nossa plataforma:</p>
+            <p>Quer compartilhar sua história? Envie seu depoimento através do nosso formulário de contato.</p>
+        </section>
+
+        <section class="section">
+            <h2>Recursos Offline</h2>
+            <p>Sabemos que nem sempre o acesso à internet está disponível. Por isso, oferecemos:</p>
+            <ul>
+                <li>Materiais em PDF para download</li>
+                <li>Listas de exercícios imprimíveis</li>
+                <li>Tutoriais em vídeo com opção de download</li>
+            </ul>
+            <p>Esses recursos permitem que você continue aprendendo onde e quando quiser.</p>
+        </section>
+
+     
+
+        <section class="section">
+            <h2>Expansões Futuras</h2>
+	    <p>Planejamos incluir novas áreas de estudo, quizzes interativos e parcerias com instituições educacionais, ampliando o impacto do projeto.<br>Nosso objetivo é promover inclusão digital, desenvolver competências e oferecer autonomia educacional. Estamos comprometidos em ser uma ponte entre a tecnologia e o aprendizado acessível para todos.<br><br><b>Junte-se a nós nessa missão!</b></p>
+            <a href="#" class="btn">Seja um Parceiro</a>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Inclusão Digital EJA. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const tabs = document.querySelectorAll('.tab');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document.getElementById(tab.dataset.tab);
+
+                tabContents.forEach(tc => tc.classList.remove('active'));
+                target.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
